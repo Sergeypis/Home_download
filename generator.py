@@ -26,5 +26,5 @@ def initial_data() -> (int, list):
     print("-" * 60)
     
     spec_symbols = input("Введите спецсимволы, если их нужно использовать в пароле. Иначе нажмите Enter: ")    
-        if spec_symbols
+        if ' ' in spec_symbols or spec_symbols.isalnum() 
     return password_len
